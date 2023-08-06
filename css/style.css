@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  max-width: 1152px;
+  max-width: 1158px;
   padding-left: 14px;
   padding-right: 14px;
   margin-left: auto;
@@ -75,6 +75,8 @@ img {
   height: 24px;
   align-items: center;
   flex-shrink: 0;
+
+  margin-right: 76px;
 }
 
 .logo {
@@ -106,7 +108,7 @@ img {
 .navigation-panel {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
+  
 }
 
 /* .navigation-panel .item:not(:last-child) {
@@ -389,9 +391,8 @@ img {
 
   padding: 12px 24px;
 
-  border: 1px solid #e7e9fc ;
+  border: 1px solid #e7e9fc;
   border-radius: 4px;
-
 }
 .button-filters:hover {
   color: white;
@@ -412,7 +413,7 @@ img {
 }
 
 .menu-portfolio-item {
-  width: calc((100%-38px)/3);
+  width: calc((100%-38px) / 3);
 
   border: 1px solid #e7e9fc;
 }
