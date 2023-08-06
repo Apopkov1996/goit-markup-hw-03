@@ -59,7 +59,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.main-header {
+.main-nav {
   display: flex;
   align-items: center;
   height: 72px;
@@ -445,8 +445,7 @@ img {
 }
 
 .main-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
+padding: 100px 0;
 }
 
 .logo-web-footer {
@@ -460,6 +459,11 @@ img {
   text-transform: uppercase;
 }
 
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-p {
   color: var(--light-backgroung);
   font-family: Roboto;
@@ -467,6 +471,4 @@ img {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
-
-  padding-top: 18px;
 }
