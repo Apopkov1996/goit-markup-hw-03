@@ -234,6 +234,10 @@ img {
   width: calc((100%-72px) / 4);
 }
 
+/* .visually-hiden { 
+  display: none;
+}*/
+
 .advantages-header {
   color: var(--text-color);
   font-family: Roboto;
