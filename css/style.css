@@ -172,8 +172,11 @@ img {
   padding-bottom: 188px;
 }
 
+.visually-hiden {
+  visibility: hidden;
+}
+
 .text-banner {
-  /* max-width: 496px; */
   margin-bottom: 48px;
 
   color: #fff;
@@ -184,6 +187,8 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+
+  max-width: 496px;
 }
 
 .order-service-button {
