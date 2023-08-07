@@ -373,14 +373,6 @@ img {
   padding: 96px 0 120px 0;
 }
 
-.filters-portfolio {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-
-  margin-bottom: 72px;
-}
-
 .header-portfolio {
   color: #fff;
   text-align: center;
@@ -390,6 +382,14 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+}
+
+.filters-portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+
+  margin-bottom: 72px;
 }
 
 .button-filters {
