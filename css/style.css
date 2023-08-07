@@ -58,6 +58,10 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
+.main-header {
+  display: flex;
+  align-items: center;
+}
 
 .main-nav {
   display: flex;
@@ -164,14 +168,12 @@ img {
 
 .banner {
   background: #2e2f42;
-}
-
-.main-banner {
   padding-top: 188px;
   padding-bottom: 188px;
 }
 
 .text-banner {
+  max-width: 496px;
   margin-bottom: 48px;
 
   color: #fff;
@@ -185,6 +187,9 @@ img {
 }
 
 .order-service-button {
+  min-width: 169px;
+  height: 56px;
+
   color: #fff;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -198,6 +203,9 @@ img {
   display: block;
   margin: auto;
   padding: 16px 32px;
+
+  border: none;
+  border-radius: 4px;
 }
 
 .order-service-button:hover {
@@ -208,7 +216,7 @@ img {
   background-color: #404bbf;
 }
 
-.main-advantages {
+.advantages {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -217,6 +225,10 @@ img {
   display: flex;
   gap: 24px;
   justify-content: center;
+}
+
+.li-advantages {
+  width: calc((100%-72px) / 4);
 }
 
 .advantages-header {
@@ -445,7 +457,7 @@ img {
 }
 
 .main-footer {
-padding: 100px 0;
+  padding: 100px 0;
 }
 
 .logo-web-footer {
