@@ -177,8 +177,6 @@ img {
 }
 
 .text-banner {
-  margin-bottom: 48px;
-
   color: #fff;
   text-align: center;
   font-family: Roboto;
@@ -187,6 +185,23 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+
+  max-width: 496px;
+  margin: auto;
+  margin-bottom: 48px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .order-service-button {
